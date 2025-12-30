@@ -96,7 +96,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               // ---------------- CONTINUE BUTTON ----------------
               GestureDetector(
                 onTap: () {
-                  Navigator.pushNamed(context, "/registerStepOne");
+                  Navigator.pushReplacementNamed(context, "/registerStepOne");
                   // Navigate to next screen
                 },
                 child: Container(
